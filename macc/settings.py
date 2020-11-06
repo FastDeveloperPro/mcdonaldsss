@@ -25,7 +25,7 @@ SECRET_KEY = 'ogrsw&y8=fo^uuy#p)e_^2qfum-gwc2x374dd7wr9e_)mc$+ss'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['mcdonaldsss.herokuapp.com/','127.0.0.1']
 
 
 # Application definition
