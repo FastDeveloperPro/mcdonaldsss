@@ -1,0 +1,1 @@
+web: gunicorn macc.wsgi --log-file -

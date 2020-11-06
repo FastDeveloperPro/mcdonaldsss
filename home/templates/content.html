@@ -1,0 +1,186 @@
+{% load static%}
+
+
+<section style="margin-top: 6rem;" id="drinks">
+    <div class="container">
+        <div class="row m-1">
+           {% for rs in drinks %}
+            <div class="col-4">
+                <div class="card">
+                    <img src="{{rs.image.url}}" alt="card img" style="height:200px;" class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="card-title font-weight-bold">{{ rs.price }}</h2>
+<!--                        <p class="card-text">{{ rs.title }}</p>-->
+                        <div class="headline-ltxt mt-2 mb-5">
+                            <span>{{rs.description}}</span>
+                        </div>
+                        <a href="drinks/" class="btn-prm1">check out</a>
+                    </div>
+                </div>
+            </div>
+            {%endfor%}
+        </div> 
+    </div>
+</div>
+</section>
+
+<section style="margin-top: 6rem;" id="foods">
+    <div class="container">
+        <div class="row m-1">
+            {%for rs in foods%}
+            <div class="col-4">
+                <div class="card">
+                    <img src="{{rs.image.url}}" alt="card img" style="height:200px;" class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="card-title font-weight-bold">{{rs.price}}</h2>
+                        <p class="card-text">{{rs.title}}</p>
+                        <div class="headline-ltxt mt-2 mb-5">
+                            <span>{{rs.description}}</span>
+                        </div>
+                        <a href="foods/" class="btn-prm1">check out</a>
+                    </div>
+                </div>
+            </div>
+            {%endfor%}
+        </div> 
+    </div>
+</div>
+</section>
+<section style="margin-top: 6rem;" id="deals">
+    <div class="container">
+        <div class="row m-1">
+            {%for rs in deals%}
+            <div class="col-4">
+                <div class="card">
+                    <img src="{{rs.image.url}}" alt="card img" style="height:200px;" class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="card-title font-weight-bold">{{rs.price}}</h2>
+                        <p class="card-text">{{rs.title}}</p>
+                        <div class="headline-ltxt mt-2 mb-5">
+                            <span>{{rs.description}}</span>
+                        </div>
+                        <a href="deals/" class="btn-prm1">check out</a>
+                    </div>
+                </div>
+            </div>
+            {%endfor%}
+        </div> 
+    </div>
+</div>
+</section>
+
+
+
+
+
+
+
+
+<!-- <section style="margin-top: 6rem;">
+    <div class="container d-flex justify-content-between">
+        <div class="sec2-img m-3">
+            <img src="{%static 'image/_Sub-Carousel_COVID-19_1168x520.jpg'%}" alt="article image">
+        </div>
+        <div class="sec2-content ml-3 mr-3 mt-3">
+            <h2 class="headline-text font-weight-bold">COVID-19 Update</h2>
+            <p class="headline-desc mb-4">
+                The well-being of our people and customers is our top priority, so we are taking precautions to protect your health. All restaurants are encouraged to move to Drive-Thru, Delivery and Walk-In Take-Out and close down all dine-in seating. Find out more about McDonald's response to COVID-19
+            </p>
+            <div class="headline-ltxt mb-4">
+                <span>McDelivery available at participating McDonald’s. Prices may be higher than at restaurants.</span>
+            </div>
+            <a href="https://news.mcdonalds.com/" class="btn-prm">McDonald's Newsroom</a>
+        </div>
+    </div>
+</section> -->
+
+<!-- <section style="margin-top: 10rem;" id="cards">
+    <div class="container">
+        <div class="row m-3">
+            <div class="col-4">
+                <div class="card">
+                    <img src="{%static 'image/sec3/Promo_376x252.jpg'%}" alt="card img" class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="card-title font-weight-bold">Mobile Order & Pay</h2>
+                        <p class="card-text">Pick up your order. Select Drive Thru pick up and tell us your order code at the speaker.</p>
+                        <div class="headline-ltxt mt-2 mb-5">
+                            <span>McD App download and registration required. Mobile Order & Pay available at participating McDonald's.</span>
+                        </div>
+                        <a href="#" class="btn-prm1">Use App</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <img src="{%static 'image/sec3/mccafe_2col_574x384.jpg'%}" alt="card img" class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="card-title font-weight-bold">McCafé® Rewards</h2>
+                        <p class="card-text">Download our App to earn rewards and access deals on McCafé drinks.</p>
+                        <div class="headline-ltxt mt-2 mb-5">
+                            <span>Valid thru 5/3/20 at participating McDonald’s. McD App download and registration required. </span>
+                        </div>
+                        <a href="#" class="btn-prm1">Get App to earn</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <img src="{%static 'image/sec3/2_Col_Nutrition_Calculator_574x383.jpg'%}" alt="card img" class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="card-title font-weight-bold">Nutrition Calculator</h2>
+                        <p class="card-text mb-5">Explore our nutrition facts and learn more about your favorite McDonald’s menu items.</p>
+                        <a href="#" class="btn-prm1">Get Nutrition Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row ml-3 mr-3" style="margin-top: 6rem;">
+            <div class="col-4">
+                <div class="card">
+                    <img src="{%static 'image/sec3/HomepagePromo_376x252_janfebD123.jpg'%}" alt="card img" class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="card-title font-weight-bold">$1 Any Size Soft <br> Drink & $2 Small McCafé®</h2>
+                        <p class="card-text mt-2">Get a small specialty McCafé drink for just $2, or any size soft drink for just $1, only on the $1 $2 $3 Dollar Menu. Joy Included.</p>
+                        <div class="headline-ltxt mt-2 mb-5">
+                            <span>Prices and participation may vary. Cannot be combined with any other offer or combo meal. Excludes hot and iced coffee. Tax Extra. © 2019 The Coca-Cola Company. "Coca-Cola", “Sprite", and “Fanta" are trademarks of The Coca-Cola Company. ™ & © Dr Pepper/Seven Up, Inc.</span>
+                        </div>
+                        <a href="#" class="btn-prm1">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <img src="{%static 'image/sec3/3Col_Promo_QPC_376x252.jpg'%}" alt="card img" class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="card-title font-weight-bold">Try Our Fresh Beef Lineup</h2>
+                        <p class="card-text mt-2">The hottest, juiciest Quarter Pounder®* with Cheese yet, made with 100% fresh beef**, only at McDonald’s. It’s perfect made perfecter.</p>
+                        <div class="headline-ltxt mt-2 mb-5">
+                            <span>*Weight before cooking 4 oz.<br>
+                                **Fresh Beef available at most restaurants in contiguous US. Not available in Alaska, Hawaii, and USTerritories.</span>
+                        </div>
+                        <a href="#" class="btn-prm1">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <img src="{%static '/images/favicon.ico'%}" alt="card img" class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="card-title font-weight-bold">Golden Arches Unlimited</h2>
+                        <p class="card-text mb-5 mt-2">Want McDonald’s merch? Check out our store for t-shirts, winter wear, gifts and more!</p>
+                        <a href="#" class="btn-prm1">McDonald's Merchandise</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> -->
+<link rel="stylesheet" href="{%static 'css/bootstrap.min.css'%}">
+<link rel="stylesheet" href="{%static 'fontawesome-free-5.12.1-web/css/fontawesome.css'%}">
+<link rel="stylesheet" href="{%static 'fontawesome-free-5.12.1-web/css/solid.css'%}">
+
+<!-- Stylesheet -->
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+<!-- Title -->
+<link rel="icon" type="image/png" href="{%static 'image/favicon.ico'%}.">

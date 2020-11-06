@@ -1,0 +1,32 @@
+{% load static%}
+<!DOCTYPE html>
+<html lang="en-uz">
+<head>
+    <meta http-equiv="Content-Type" charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="McDonald's: Burgers, Fries &amp; More. Quality Ingredients.">
+    <meta name="description" content="McDonalds.com is your hub for everything McDonald's. Find out more about our menu items and promotions today!">
+
+    <!-- Bootstrap Links and Fontawesome -->
+    <link rel="stylesheet" href="{%static 'css/bootstrap.min.css'%}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+    <!-- Title -->
+    <link rel="icon" type="image/png" href="{%static 'image/favicon.ico.jpg'%}.">
+    <title>McDonald's: Burgers, Fries & More. Quality Ingredients.</title>
+    {%block head%} 
+    {%endblock%}
+</head>
+<body>
+    {%include 'header.html'%}
+    {%block slider%}
+    {%endblock%}
+    {%block content%}
+    {%endblock%}
+    {%block footer%}
+    {%endblock%}
+</body>
+</html>

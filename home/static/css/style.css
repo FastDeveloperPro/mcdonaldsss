@@ -1,0 +1,413 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 1rem;
+    color: #2D2D2D;
+    box-sizing: border-box;
+}
+
+
+/* Frequently used classes */
+.container{
+    max-width: 1368px;
+    width: 88%;
+    margin: auto;
+}
+
+.btn-prm{
+    margin: 10px 0px;
+    padding: 10px 25px;
+    background-color: #FFBC0D !important;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #2D2D2D;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.btn-prm1{
+    margin: 10px 0px;
+    padding: 12px 40px;
+    background-color: #FFBC0D !important;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #2D2D2D;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-prm, .btn-prm1:hover{
+    text-decoration: none !important;
+    color: #2D2D2D !important;  
+}
+
+.btn-prm-outline{
+    margin: 10px 0px;
+    padding: 12px 35px;
+    border: 1px solid #FFBC0D ;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #2D2D2D;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* header */
+nav{
+    display: flex;
+    margin-top: 25px;
+}
+
+nav .nav1{
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+}
+
+.nav1 .nav1-left ul,
+.nav1 .nav1-right ul,
+.nav2 ul{
+    list-style: none;
+}
+
+.nav1 .nav1-left ul li a,
+.nav1 .nav1-right ul li a,
+.nav2 ul li a{
+    text-decoration: none;
+    color: #2D2D2D;
+}
+
+.nav1 .nav1-left ul li,
+.nav1 .nav1-right ul li,
+.nav2 ul li{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.nav1 .nav1-right{
+    /*margin-left: 4rem;*/
+}
+
+.nav2 {
+    margin-top: 20px;
+    font-size: 18px;
+    margin-left: 5.3rem;
+}
+
+.nav2 ul li .active{
+    padding-bottom: 15px;
+    border-bottom: 5px solid #DB0007;
+    font-weight: bold;
+}
+
+.card-body h2{
+    font-weight: bold !important;
+}
+
+.angle-down{
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.map-icon{
+    color: red;
+    font-size: 15px;
+}
+
+.line{
+    /* margin-top: 5px; */
+    border: 1px solid rgb(238, 231, 231);
+}
+
+/* section => carousel */
+.carousel .carousel-inner{
+    border-radius: 7px !important;
+    position: relative;
+    z-index: 1;
+}
+
+.headline-card{
+    width: 24rem;
+    margin-left: -8rem;
+    margin-bottom: 50px;
+    padding: 30px 20px;
+    position: absolute;
+    border-radius: 0.25rem;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: #2D2D2D;
+    text-align: left;
+    z-index: 2;
+}
+
+.headline-desc{
+    font-size: 17px;
+}
+
+.headline-ltxt{
+    font-size: 11px;
+    letter-spacing: 0.2px;
+}
+
+.sec2-img img{
+    width: 48rem;
+    vertical-align: middle;
+}
+
+.card{
+    border: none !important;
+}
+
+.card1{
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+.card1-body{
+    padding: 2rem 2.5rem 6rem;
+}
+
+.card-body{
+    padding: 20px 0 !important;
+}
+
+#showcase h1{
+    margin: 3rem auto;
+    font-size: 3.3rem;
+    font-weight: bold;
+}
+
+#showcase p{
+    margin: 8rem auto 8rem;  
+}
+
+#cards p{
+    margin: 1.75rem auto 2rem;
+}
+
+#cards .mtop{
+    margin-top: 5.75rem;
+}
+
+/* Footer */
+.footer-nav ul,
+.socials ul{
+    list-style: none;
+    margin-left: -2.5rem;
+}
+
+.footer-nav ul li{
+    margin-top: 3px;
+}
+
+.footer-nav ul li a{
+    text-decoration: none;
+    color: #2D2D2D;
+}
+
+.global-footer-nav{
+    padding-bottom: 1.3rem;
+    margin-left: 1.5rem;
+}
+
+.socials ul li{
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.socials ul li:nth-child(1) a img{
+    width: 34px;
+}
+
+.socials ul li:nth-child(2) a img{
+    width: 29px;
+}
+
+.socials ul li:nth-child(3) a img,
+.socials ul li:nth-child(6) a img{
+    width: 27px;
+}
+
+.socials ul li:nth-child(4) a img{
+    width: 30px;
+}
+
+.socials ul li:nth-child(5) a img{
+    width: 40px;
+}
+
+.apps{
+    margin-left: 27rem;
+}
+
+.apps ul{
+    list-style: none;
+    margin-top: -10px;
+}
+
+.apps ul li{
+    display: inline-block;
+}
+
+.app-store{
+    width: 76%;
+}
+
+.mcd-legal{
+    padding-top: 2.345rem;
+    border-top: 1px solid #d6d6d6;
+}
+
+.mcd-legal ul {
+    list-style-type: none;
+    margin-left: -1rem;
+}
+
+.mcd-legal ul li{
+    display: inline;
+    margin-right: 40px;
+}
+
+.mcd-legal ul li a{
+    color: #2D2D2D;
+}
+
+.mcd-legal ul li a:hover{
+    text-decoration: none;
+}
+
+.details img{
+    width: 30px;
+}
+
+/* Media Query */
+@media screen and (min-width: 1280px) and (max-width: 1330px){
+    .nav1 .nav1-right{
+        margin-left: 13rem;
+    }
+
+    .headline-text{
+        font-size: 25px;
+    }
+
+    .headline-desc{
+        font-size: 15px;
+    }
+
+    .header{
+        font-size: 38px !important;
+    }
+
+    .btn-prm{
+        margin: 10px 0px;
+        padding: 7px 13px;
+    }
+
+    .btn-prm1{
+        margin: 10px 0px;
+        padding: 9px 22px;
+    }
+
+    .image{
+        width: 100%;
+    }
+
+    .apps{
+        margin-left: 10rem;
+    }
+}
+
+@media screen and (min-width: 1101px) and (max-width: 1279px){
+    .nav1 .nav1-right{
+        margin-left: 9.5rem;
+    }
+
+    .headline-text{
+        font-size: 25px;
+    }
+
+    .headline-desc{
+        font-size: 15px;
+    }
+
+    .header{
+        font-size: 38px !important;
+    }
+
+    .image{
+        width: 100%;
+    }
+
+    .apps{
+        margin-left: 21rem;
+    }
+}
+
+@media screen and (min-width: 968px) and (max-width: 1100px){
+
+    .nav1 .nav1-left ul li,
+    .nav1 .nav1-right ul li,
+    .nav2 ul li{
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    .nav2 {
+        margin-top: 20px;
+        font-size: 17px;
+        margin-left: 1rem;
+    }
+
+    .nav1 .nav1-right{
+        margin-left: 1rem;
+    }
+    
+    .header{
+        font-size: 35px !important;
+    }
+
+    .image{
+        width: 100%;
+    }
+
+    .headline-card{
+        width: 20rem;
+        margin-left: -6.5rem;
+        margin-bottom: 10px;
+        padding: 20px 15px;
+        position: absolute;
+    }
+    
+    .sec2-img img{
+        width: 35rem;
+        vertical-align: middle;
+    }
+
+    .headline-text{
+        font-size: 20px;
+    }
+
+    .headline-desc{
+        font-size: 13px;
+    }
+
+    .btn-prm{
+        margin: 10px 0px;
+        padding: 7px 13px;
+    }
+
+    .btn-prm1{
+        margin: 10px 0px;
+        padding: 9px 22px;
+    }
+
+    .apps{
+        margin-left: 5rem;
+    }
+}
+
+

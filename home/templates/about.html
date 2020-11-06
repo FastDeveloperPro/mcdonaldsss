@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+
+{%load static%}
+
+<html lang="en-uz">
+<head>
+    <meta http-equiv="Content-Type" charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="McCafé® Coffee, Espresso Drinks & More | McDonald's">
+
+    <!-- Bootstrap Links and Fontawesome -->
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{%static 'fontawesome-free-5.12.1-web/css/fontawesome.css'%}">
+    <link rel="stylesheet" href="{%static 'fontawesome-free-5.12.1-web/css/solid.css'%}">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="{%static 'css/style.css'%}">
+
+    <!-- Title -->
+    <link rel="icon" type="image/png" href="{%static 'image/favicon.ico'%}">
+    <title>McCafé® Coffee, Espresso Drinks & More | McDonald's</title>
+
+    {%include 'header.html'%}
+    <section id="showcase">
+        <div class="container">
+            <h1 class="text-center header">About Our Food</h1>
+            <img src="{%static 'image/About/About_Our_Food_Hero_1260x560_Desktop.jpg'%}" alt="mccafe hub" class="image">
+            <p>From making healthier additions to our Happy Meal®, to serving up fresh beef Quarter Pounder® burgers that are cooked when you order, we’re always finding ways to show our commitment to our customers and our food.</p>
+        </div>
+    </section>
+
+    <section id="cards">
+        <div class="container">
+            <div class="row ml-2 mr-2 mtop">
+                <div class="col-6">
+                    <div class="card">
+                        <img src="{%static 'image/About/about-food_quality_pub-2-col_1110x740.jpg'%}" alt="card img" class="card-img-top">
+                        <div class="card-body">
+                            <h2 class="card-title font-weight-bold">Commitment to Quality</h2>
+                            <p class="card-text">We're dedicated to improving the way we prepare our quality food and the ingredients that go into it.</p>
+                            <a href="#" class="btn-prm1">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card">
+                        <img src="{%static 'image/About/ourfoodphilos_foods.jpg'%}" alt="card img" class="card-img-top">
+                        <div class="card-body">
+                            <h2 class="card-title font-weight-bold">Our Food, Your Questions</h2>
+                            <p class="card-text">We're transparent about our food; so when you ask, we tell.</p>
+                            <a href="#" class="btn-prm1">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row ml-2 mr-2 mtop">
+                <div class="col-6">
+                    <div class="card">
+                        <img src=" {%static 'image/About/Whats_In_Your_Food_2Col_1110x740.jpg '%}" alt="card img" class="card-img-top">
+                        <div class="card-body">
+                            <h2 class="card-title font-weight-bold">What's in Your Food</h2>
+                            <p class="card-text">Find out what makes our ingredients special.</p>
+                            <a href="#" class="btn-prm1">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card">
+                        <img src="{%static 'image/About/about-food_philosophy_pub-2-col_1110x740.jpg'%}" alt="card img" class="card-img-top">
+                        <div class="card-body">
+                            <h2 class="card-title font-weight-bold">Our Food Philosophy</h2>
+                            <p class="card-text">We’re passionate about our food. That’s why we’re committed to always evolving what matters to you.</p>
+                            <a href="#" class="btn-prm1">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row ml-2 mr-2 mtop">
+                <div class="col-6">
+                    <div class="card">
+                        <img src="{%static 'image/About/Nutrition_Calculator_2-col_574x384.jpg'%}" alt="card img" class="card-img-top">
+                        <div class="card-body">
+                            <h2 class="card-title font-weight-bold">Nutrition Calculator</h2>
+                            <p class="card-text">Our nutrition calculator has the McDonald’s menu nutrition information you’re seeking. Learn more about your favorite meals.</p>
+                            <a href="#" class="btn-prm1">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card">
+                        <img src="{%static 'image/About/Our_Food_Experts_2-col_1110x740.jpg'%}" alt="card img" class="card-img-top">
+                        <div class="card-body">
+                            <h2 class="card-title font-weight-bold">Our Food Experts</h2>
+                            <p class="card-text">From our chefs, to our dieticians and suppliers, McDonald’s food experts care deeply about the food you eat.</p>
+                            <a href="#" class="btn-prm1">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row ml-2 mr-2 mtop">
+                <div class="col-6">
+                    <div class="card">
+                        <img src="{%static 'image/About/Fresh_Beef_2-col_1110x740.jpg'%}" alt="card img" class="card-img-top">
+                        <div class="card-body">
+                            <h2 class="card-title font-weight-bold">Fresh Beef</h2>
+                            <p class="card-text">Our Quarter Pounder®* patty is made with 100% fresh beef and cooked right when you order. It’s hot and deliciously juicy and full of flavor.</p>
+                            <div class="headline-ltxt mt-2 mb-5">
+                                <span>*Weight before cooking 4 oz. At participating McDonald's. Fresh Beef available at most restaurants in contiguous US. Not available in Alaska, Hawaii, and US Territories.</span>
+                            </div>
+                            <a href="#" class="btn-prm1">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card">
+                        <img src="{%static 'image/About/happy_meal_2Col_1110x740_Desktop.jpg'%}" alt="card img" class="card-img-top">
+                        <div class="card-body">
+                            <h2 class="card-title font-weight-bold">Happy Meal® Nutrition
+                            </h2>
+                            <p class="card-text">When your kids enjoy a meal that’s delicious and balanced, you’ll enjoy it too.</p>
+                            <a href="#" class="btn-prm1">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row ml-2 mr-2 mtop">
+                <div class="col-6">
+                    <div class="card">
+                        <img src="{%static 'image/About/Variety_2Col_1110x740_Desktop.jpg'%}" alt="card img" class="card-img-top">
+                        <div class="card-body">
+                            <h2 class="card-title font-weight-bold">Variety of Choices</h2>
+                            <p class="card-text">When it comes to quality options, we’ve got you covered.</p>
+                            <a href="#" class="btn-prm1">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer style="margin-top: 7rem;">
+        <div class="container">
+            <nav class="footer-nav ml-3">
+                <div class="col">
+                    <h6 class="mb-3">About Us</h6>
+                    <ul>
+                        <li><a href="#">Our History</a></li>
+                        <li><a href="#">Leadership Team</a></li>
+                        <li><a href="#">Values in Action</a></li>
+                        <li><a href="#">Investor Relations</a></li>
+                        <li><a href="#">News & Notifications</a></li>
+                        <li><a href="#">Franchiso Info</a></li>
+                        <li><a href="#">Recalls & Alerts</a></li>
+                        <li><a href="#">Digital Accessibility</a></li>
+                        <li><a href="#">Our Food, Your Questions</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h6 class="mb-3">Careers</h6>
+                    <ul>
+                        <li><a href="#">Education Opportunities</a></li>
+                        <li><a href="#">Employee Perks</a></li>
+                        <li><a href="#">Meet Our People: Staff & Management</a></li>
+                        <li><a href="#">Working with Us</a></li>
+                        <li><a href="#">Apply Now</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h6 class="mb-3">Services</h6>
+                    <ul>
+                        <li><a href="#">Wi-Fi</a></li>
+                        <li><a href="#">Arch Card®</a></li>
+                        <li><a href="#">PlayPlaces & Parties</a></li>
+                        <li><a href="#">McDelivery®</a></li>
+                        <li><a href="#">Mobile Order & Pay</a></li>
+                        <li><a href="#">Download App</a></li>
+                        <li><a href="#">McDonald’s Merchandise</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h6 class="mb-3">Community</h6>
+                    <ul>
+                        <li><a href="#">HACER® Scholarships for</a></li>
+                        <li><a href="#">Hispanic Students</a></li>
+                        <li><a href="#">Ronald McDonald House</a></li>
+                        <li><a href="#">Charities</a></li>
+                        <li><a href="#">McDonald's APA</a></li>
+                        <li><a href="#">McDonald’s International</a></li>
+                        <li><a href="#">Black & Positively Golden</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h6 class="mb-3">Contact Us</h6>
+                    <ul>
+                        <li><a href="#">Arch Card</a></li>
+                        <li><a href="#">Donations</a></li>
+                        <li><a href="#">Employment</a></li>
+                        <li><a href="#">Mobile App Feedback</a></li>
+                        <li><a href="#">Restaurant Feedback</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <nav class="global-footer-nav">
+                <div class="mcd-profiles d-flex justify-content-between">
+                    <div class="socials">
+                        <ul>
+                            <li>
+                                <a href="http://facebook.com/McDonaldsUS" target="_blank"><img src="{%static 'image/Social_Icons/icons8-facebook-circled-32.png'%}" alt="facebook icon"></a>
+                            </li>
+                            <li>
+                                <a href="http://Twitter.com/McDonalds" target="_blank"><img src="{%static 'image/Social_Icons/icons8-twitter-circled-32.png'%}" alt="twitter icon"></a>
+                            </li>
+                            <li>
+                                <a href="http://youtube.com/c/McDonalds" target="_blank"><img src="{%static 'image/Social_Icons/iconfinder_youtube_1632538.png'%}" alt="youtube icon"></a>
+                            </li>
+                            <li>
+                                <a href="http://mcdonalds.tumblr.com" target="_blank"><img src="{%static 'image/Social_Icons/iconfinder_tumblr_circle_color_107171.png'%}" alt="tumblr icon"></a>
+                            </li>
+                            <li>
+                                <a href="http://instagram.com/McDonalds" target="_blank"><img src="{%static 'image/Social_Icons/iconfinder_Popular_Social_Media-08_2329265.png'%}" alt="instagram icon"></a>
+                            </li>
+                            <li>
+                                <a href="https://open.spotify.com/user/mcdonalds" target="_blank"><img src="{%static 'image/Social_Icons/iconfinder_Spotify_1298766.png'%}" alt="spotify icon"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="apps">
+                        <ul>
+                            <li>
+                                <a href="https://itunes.apple.com/us/app/mcdonalds-mobile/id922103212?mt=8" target="_blank">
+                                    <img src="{%static 'image/App_Store_Badge.png'%}" alt="App Store Badge" class="app-store">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://play.google.com/store/apps/details?id=com.mcdonalds.app&hl=en" target="_blank">
+                                    <img src="{%static 'image/unnamed.png'%}" alt="Google Play Store Badge" class="play-store">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="mcd-legal d-flex justify-content-between">
+                <ul class="links">
+                    <li class="links-item"><a href="#">Privacy (Updated)</a></li>
+                    <li class="links-item"><a href="#">Terms & Conditions</a></li>
+                    <li class="links-item"><a href="#">Accessibility</a></li>
+                    <li class="links-item"><a href="#">Do Not Sell My Info</a></li>
+                </ul>
+                <div class="details">
+                    <p class="copyright">
+                        <img src="{% static 'image/arches-logo_108x108.jpg'%}" alt="brand logo">
+
+                        © 2017 - 2020 McDonald's. All Rights Reserved
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End -->
+
+    <!-- Bootstrap JS Files -->
+    <script src="{% static 'js/jquery-3.3.1.slim.min.js'%}"></script>
+    <script src="{% static 'js/popper.min.js'%}"></script>
+    <script src="{% static 'js/bootstrap.min.js'%}"></script>
+    
+    <!-- JS Files -->
+    <script src="{% static 'js/main.js'%}"></script>
+</body>
+</html>

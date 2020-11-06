@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+{% load static%}
+<html lang="en-uz">
+<head>
+    <meta http-equiv="Content-Type" charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="McDonald's: Burgers, Fries &amp; More. Quality Ingredients.">
+    <meta name="description" content="McDonalds.com is your hub for everything McDonald's. Find out more about our menu items and promotions today!">
+
+    <!-- Bootstrap Links and Fontawesome -->
+    <link rel="stylesheet" href="{%static 'css/bootstrap.min.css'%}">
+    <link rel="stylesheet" href="{%static 'fontawesome-free-5.12.1-web/css/fontawesome.css'%}">
+    <link rel="stylesheet" href="{%static 'fontawesome-free-5.12.1-web/css/solid.css'%}">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+    <!-- Title -->
+    <link rel="icon" type="image/png" href="{%static 'image/favicon.ico'%}.">
+    <title>McDonald's: Burgers, Fries & More. Quality Ingredients.</title>
+    {%block head%} 
+    {%endblock%}
+</head>
+<body>
+    {%include 'header.html'%}
+
+    <section id="showcase">
+        <div class="container">
+            <h1 class="text-center header">Trending Now</h1>
+            <img src="{%static 'image/trend/trending_hero_desktop_1260x560.jpg'%}" alt="Trending hero" class="image">
+            <p style="font-size: 22px; text-align: center;">Get in the loop with the latest on promotions, events, new products and more.</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="container d-flex justify-content-between">
+            <div class="sec2-img m-3">
+                <img src="{%static 'image/trend/TN_bigmac_event.jpg'%}" alt="article image">
+            </div>
+            <div class="sec2-content ml-3 mr-3 mt-4">
+                <h2 class="headline-text font-weight-bold">
+                    <span>Today’s Your Day for a Mac</span>
+                </h2>
+                <p class="headline-desc mb-5 mt-4">
+                    Now there are even more ways to love the classic Big Mac® taste. Get the new Little Mac™ or Double Big Mac now on Mobile Order & Pay. Order in the App, pass the line with a tap.
+                </p>
+                <a href="#" class="btn-prm">Use the App to Order</a>
+            </div>
+        </div>
+    </section>
+
+    <section style="margin-top: 10rem;">
+        <div class="container d-flex justify-content-between">
+            <div class="sec2-img m-3">
+                <img src="{%static 'image/trend/TrendingNow_McCafeD123Jan_1168x520.jpg'%}" alt="article image">
+            </div>
+            <div class="sec2-content ml-3 mr-3 mt-3">
+                <h2 class="headline-text font-weight-bold">
+                    <span>$1 Any Size Soft Drink & $2 Small McCafé®</span>
+                </h2>
+                <p class="headline-desc mb-4">
+                    Get a small specialty McCafé drink for just $2, or any size soft drink for just $1, only on the $1 $2 $3 Dollar Menu. Joy Included.
+                </p>
+                <div class="headline-ltxt mb-4">
+                    <span>Prices and participation may vary. Cannot be combined with any other offer or combo meal. Excludes hot and iced coffee. Tax Extra. © 2019 The Coca-Cola Company. "Coca-Cola", “Sprite", and “Fanta" are trademarks of The Coca-Cola Company. ™ & © Dr Pepper/Seven Up, Inc.</span>
+                </div>
+                <a href="#" class="btn-prm">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section style="margin-top: 10rem;">
+        <div class="container d-flex justify-content-between">
+            <div class="sec2-img m-3">
+                <img src="{%static 'image/trend/GMA_Trending_Now_1168x520.jpg'%}" alt="article image">
+            </div>
+            <div class="sec2-content ml-3 mr-3 mt-5">
+                <h2 class="headline-text font-weight-bold">
+                    <span>Get the App</span>
+                </h2>
+                <p class="headline-desc mb-4">
+                    For exclusive McDonald’s deals, Mobile Order & Pay, McCafé® Rewards & more
+                </p>
+                <div class="headline-ltxt mb-5">
+                    <span>©2019 McDonald’s</span>
+                </div>
+                <a href="#" class="btn-prm">Learn More</a>
+            </div>
+        </div>
+    </section>
+    {% load static%}
+    <footer style="margin-top: 7rem;">
+        <div class="container">
+            <nav class="footer-nav ml-3">
+                <div class="col">
+                    <h6 class="mb-3">About Us</h6>
+                    <ul>
+                        <li><a href="#">Our History</a></li>
+                        <li><a href="#">Leadership Team</a></li>
+                        <li><a href="#">Values in Action</a></li>
+                        <li><a href="#">Investor Relations</a></li>
+                        <li><a href="#">News & Notifications</a></li>
+                        <li><a href="#">Franchiso Info</a></li>
+                        <li><a href="#">Recalls & Alerts</a></li>
+                        <li><a href="#">Digital Accessibility</a></li>
+                        <li><a href="#">Our Food, Your Questions</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h6 class="mb-3">Careers</h6>
+                    <ul>
+                        <li><a href="#">Education Opportunities</a></li>
+                        <li><a href="#">Employee Perks</a></li>
+                        <li><a href="#">Meet Our People: Staff & Management</a></li>
+                        <li><a href="#">Working with Us</a></li>
+                        <li><a href="#">Apply Now</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h6 class="mb-3">Services</h6>
+                    <ul>
+                        <li><a href="#">Wi-Fi</a></li>
+                        <li><a href="#">Arch Card®</a></li>
+                        <li><a href="#">PlayPlaces & Parties</a></li>
+                        <li><a href="#">McDelivery®</a></li>
+                        <li><a href="#">Mobile Order & Pay</a></li>
+                        <li><a href="#">Download App</a></li>
+                        <li><a href="#">McDonald’s Merchandise</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h6 class="mb-3">Community</h6>
+                    <ul>
+                        <li><a href="#">HACER® Scholarships for</a></li>
+                        <li><a href="#">Hispanic Students</a></li>
+                        <li><a href="#">Ronald McDonald House</a></li>
+                        <li><a href="#">Charities</a></li>
+                        <li><a href="#">McDonald's APA</a></li>
+                        <li><a href="#">McDonald’s International</a></li>
+                        <li><a href="#">Black & Positively Golden</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h6 class="mb-3">Contact Us</h6>
+                    <ul>
+                        <li><a href="#">Arch Card</a></li>
+                        <li><a href="#">Donations</a></li>
+                        <li><a href="#">Employment</a></li>
+                        <li><a href="#">Mobile App Feedback</a></li>
+                        <li><a href="#">Restaurant Feedback</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <nav class="global-footer-nav">
+                <div class="mcd-profiles d-flex justify-content-between">
+                    <div class="socials">
+                        <ul>
+                            <li>
+                                <a href="http://facebook.com/McDonaldsUS" target="_blank"><img src="{%static './image/Social_Icons/icons8-facebook-circled-32.png'%}" alt="facebook icon"></a>
+                            </li>
+                            <li>
+                                <a href="http://Twitter.com/McDonalds" target="_blank"><img src="{%static 'image/Social_Icons/icons8-twitter-circled-32.png'%}" alt="twitter icon"></a>
+                            </li>
+                            <li>
+                                <a href="http://youtube.com/c/McDonalds" target="_blank"><img src="{%static 'image/Social_Icons/iconfinder_youtube_1632538.png'%}" alt="youtube icon"></a>
+                            </li>
+                            <li>
+                                <a href="http://mcdonalds.tumblr.com" target="_blank"><img src="{%static 'image/Social_Icons/iconfinder_tumblr_circle_color_107171.png'%}" alt="tumblr icon"></a>
+                            </li>
+                            <li>
+                                <a href="http://instagram.com/McDonalds" target="_blank"><img src="{%static 'image/Social_Icons/iconfinder_Popular_Social_Media-08_2329265.png'%}" alt="instagram icon"></a>
+                            </li>
+                            <li>
+                                <a href="https://open.spotify.com/user/mcdonalds" target="_blank"><img src="{%static 'image/Social_Icons/iconfinder_Spotify_1298766.png'" alt="spotify icon"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="apps">
+                        <ul>
+                            <li>
+                                <a href="https://itunes.apple.com/us/app/mcdonalds-mobile/id922103212?mt=8" target="_blank">
+                                    <img src="{%static 'image/App_Store_Badge.png'%}" alt="App Store Badge" class="app-store">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://play.google.com/store/apps/details?id=com.mcdonalds.app&hl=en" target="_blank">
+                                    <img src="{%static 'image/unnamed.png'%}" alt="Google Play Store Badge" class="play-store">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="mcd-legal d-flex justify-content-between">
+                <ul class="links">
+                    <li class="links-item"><a href="#">Privacy (Updated)</a></li>
+                    <li class="links-item"><a href="#">Terms & Conditions</a></li>
+                    <li class="links-item"><a href="#">Accessibility</a></li>
+                    <li class="links-item"><a href="#">Do Not Sell My Info</a></li>
+                </ul>
+                <div class="details">
+                    <p class="copyright">
+                        <img src="{%static 'image/arches-logo_108x108.jpg'%}" alt="brand logo">
+    
+                        © 2017 - 2020 McDonald's. All Rights Reserved
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="{% static 'js/bootstrap.min.js'%}"></script>
+    <script src="{% static 'js/main.js'%}"></script>
+    <script src="{% static 'js/jquery-3.3.1.slim.min.js'%}"></script>
+    <script src="{% static 'js/popper.min.js' %}"></script>
+    <!-- End -->
+
+    
+</body>
+</html>
